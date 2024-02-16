@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row1 {
+    height: 100px;
+}
+
+.logoone {
+    height: 100px;
+}
+
+.logoone {
+    margin-left: 30px;
+}
+
+.nav-link {
+    border-bottom: 3px solid #ffc107;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid red;
+    color: red !important;
+}
+
+.zindex {
+    z-index: 7;
+}
+
+.row-two {
+    padding-top: 100px;
+    margin: 0;
+}
+
+.carousel-inner {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* .slide{
+    padding: 0;
+    margin: 0;
+} */
+.headg {
+    width: fit-content;
+}
+
+.cardContainer {
+    margin-left: -50px;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ice {
+    margin-top: 10%;
+}
+
+.rowbackground {
+    background-color: #f2e4cf;
+}
+
+.pbackground {
+    background: #0052a1;
+    transition: all 1.2s ease;
+
+}
+
+.clp {
+    color: #fff;
+    padding: 20px;
+}
+
+.card-body.pbackground:hover {
+    background-color: red;
+}
+
+.view {
+    margin-top: 9%;
+    /* height: 90px;
+    width: 500px; */
+}
+
+.groundview {
+    background-color: red;
+    width: 15%;
+    font-weight: 600;
+    transition: all 1.2s ease;
+}
+
+.imghight {
+    height: 20px;
+    width: 20px;
+}
+
+.btn-lg {
+    height: 50px;
+}
+
+.groundview {
+    width: 150px;
+}
+
+.imghight {
+    height: 10px;
+    width: 20px;
+}
+
+.groundview:hover {
+    background-color: #0052a1;
+}
+
+@media (max-width: 575px) {
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        margin-top: 110px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+
+        margin-top: 150px;
+    }
+}
+
+.heightrow {
+    margin-top: 20px;
+    height: 70vh;
+}
+
+.heightrow img {
+    height: 100%;
+}
+
+.martop {
+    margin-top: 150px;
+}
+
+.about {
+    background: url(image/about-home-bg.jpg);
+    background-size: cover;
+    height: 550px;
+
+}
+
+.one {
+    color: #0052a1;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.two {
+
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ed1b24;
+    font-family: inherit;
+}
+
+.three {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+/* @media(max-width: 575px) {
+
+    .mediea{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .one{
+        background-color: #ed1b24;
+    }
+    .last-writes{
+        width: 100%;
+        height: 50%;
+    }
+    .last{
+        width: 100%;
+        height: 50%;
+    }
+    
+ } */
+/* @media (max-width: 768px) {
+        .last-writes {
+            padding-left: 0;
+        }
+        .last {
+            padding-right: 0; 
+        }
+    } */
+/* .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start; 
+    } */
+.lazzaimg {
+    max-width: 100%;
+    height: 500px;
+}
+
+.lazzaimg img {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media only screen and(max-width:767px) {
+    .col-md-4 {
+        height: 175px;
+    }
+
+    body {
+        background-color: red;
+    }
+
+    .imageTest {}
+
+
+}
+
+.imageTestWrpapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.imageTest {
+    width: 500px;
+    height: 550px;
+    object-fit: cover ;
+}
+
+@media only screen and (max-width: 700px) {
+    /* Add your styles here */
+
+    .imageTest {
+        width: 200px !important;
+        height: 200px !important;
+        object-fit: contain;
+    }
+
+    /* Example: Adjusting font size for better readability on small screens */
+}
+
